@@ -27,7 +27,7 @@ mensajes.forEach((mensaje, index) => {
                 <h2>Mensaje #${index + 1}</h2>
             </div>
             <p>${mensaje}</p>
-            <small class="firma">Con amor, <br> Tú</small>
+            <small class="firma">Con amor, <br> Tú guapo <3 </small>
         `;
         modal.style.display = 'block';
     });
