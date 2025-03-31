@@ -5,7 +5,7 @@ body {
 }
 
 .playa {
-    background-image: url('Recursos/playa.jpg'); /* Reemplaza con tu imagen */
+    background-image: url('playa.jpg'); /* Reemplaza con tu imagen */
     background-size: cover;
     height: 100vh;
     text-align: center;
