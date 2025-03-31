@@ -15,7 +15,7 @@ const mensajeBotella = document.getElementById('mensaje-botella');
 
 mensajes.forEach((mensaje, index) => {
     const botella = document.createElement('img');
-    botella.src = 'Recursos/bottle.png'; // Imagen de botella
+    botella.src = 'bottle.png'; // Imagen de botella
     botella.className = 'botella';
     botella.dataset.mensaje = mensaje;
     botella.style.animationDelay = `${index * 0.5}s`; // Efecto escalonado
